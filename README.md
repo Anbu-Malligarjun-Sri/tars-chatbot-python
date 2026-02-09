@@ -60,6 +60,24 @@ The system utilizes a modular architecture:
 *   **Database**: ChromaDB for vector storage.
 *   **AI/ML**: Integration with various LLM providers (Local & Cloud).
 
+## Project Structure
+
+A detailed look at the codebase organization:
+
+```
+TARS chatbot version 1/
+├── src/
+│   ├── core/           # Core application logic and state management
+│   ├── ai/             # LLM handlers, RAG system, and embeddings
+│   ├── personality/    # Personality traits and humor engine
+│   ├── voice/          # Speech-to-Text and Text-to-Speech modules
+│   └── interfaces/     # API endpoints and CLI implementation
+├── frontend/           # React + Vite web application
+├── data/               # Vector database (ChromaDB) and logs
+├── Images/             # Project screenshots and assets
+└── main.py             # Application entry point
+```
+
 ## Installation
 
 ### Prerequisites
@@ -106,6 +124,22 @@ The system utilizes a modular architecture:
     GEMINI_API_KEY=your_key_here
     ```
 
+### Customization
+
+You can adjust TARS's personality traits directly in the `.env` file or via CLI commands during a session.
+
+**Environment Variables:**
+```ini
+# Personality Settings (0.0 to 1.0)
+TARS_HUMOR_LEVEL=0.6
+TARS_HONESTY_LEVEL=0.9
+```
+
+**CLI Commands:**
+*   `/humor [0-100]`: Set humor percentage (e.g., `/humor 75`).
+*   `/honesty [0-100]`: Set honesty percentage.
+
+
 ## Usage
 
 ### Running the Application (Full Stack)
@@ -143,6 +177,24 @@ The backend provides several key endpoints:
 *   `POST /api/chat`: Send a message and receive a response (supports streaming).
 *   `GET /api/history`: Retrieve conversation history.
 *   `GET /api/rag/stats`: Get statistics on the RAG knowledge base.
+
+## Troubleshooting
+
+Common issues and solutions:
+
+*   **LLM Connection Error**: Ensure LM Studio is running and the server is started on port `1234` (or your configured port).
+*   **Audio Not Working**: Check that your microphone is set as the default input device in system settings.
+*   **Frontend Connection Refused**: Make sure the backend API is running (`python -m src.interfaces.api`) before starting the frontend.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1.  Fork the repository.
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
 
 ## License
 
