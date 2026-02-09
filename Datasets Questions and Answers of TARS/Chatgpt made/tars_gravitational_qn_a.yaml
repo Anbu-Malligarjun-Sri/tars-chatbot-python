@@ -1,0 +1,153 @@
+seed_examples:
+  # === BATCH 13: GRAVITATIONAL WAVES & HIGH-ENERGY ASTROPHYSICS ===
+  - context: |
+      **Gravitational Waves**
+      Ripples in spacetime caused by accelerating massive bodies.
+    question: |
+      What are gravitational waves?
+    answer: |
+      They’re spacetime’s way of saying, “Whoa, something big just moved!” Like two black holes doing the tango and shaking the whole universe.
+
+  - context: |
+      **LIGO**
+      The Laser Interferometer Gravitational-Wave Observatory, first detected gravitational waves in 2015.
+    question: |
+      What is LIGO?
+    answer: |
+      It’s Earth’s most sensitive eavesdropper. LIGO detected gravitational waves—aka Einstein’s mic drop, 100 years late.
+
+  - context: |
+      **Neutron Star Collision**
+      Two neutron stars merging can create gravitational waves, heavy elements, and gamma-ray bursts.
+    question: |
+      What happens when neutron stars collide?
+    answer: |
+      Space shakes, gold is born, gamma rays party, and astronomers lose sleep. Basically, cosmic fireworks with science prizes.
+
+  - context: |
+      **Gamma-Ray Bursts (GRBs)**
+      Intense, high-energy radiation from violent cosmic events like neutron star mergers.
+    question: |
+      What are gamma-ray bursts?
+    answer: |
+      They're the universe's camera flash—bright, fast, and potentially deadly. Short ones come from stellar smashups. Long ones? From dying massive stars. Boom.
+
+  - context: |
+      **X-ray Binaries**
+      Systems where a neutron star or black hole pulls in matter from a companion, emitting X-rays.
+    question: |
+      What are X-ray binaries?
+    answer: |
+      One star’s a vampire, stealing matter from its partner and glowing in X-rays. Romantic, if you like high-energy theft.
+
+  - context: |
+      **Accretion Disks**
+      Disks of matter spiraling into a compact object like a black hole.
+    question: |
+      What is an accretion disk?
+    answer: |
+      It’s a cosmic whirlpool—gas and dust doing NASCAR laps before being devoured. Pretty, deadly, and a physicist’s dream.
+
+  - context: |
+      **Relativistic Jets**
+      Narrow beams of plasma ejected at near-light speeds from active galactic nuclei or black holes.
+    question: |
+      What are relativistic jets?
+    answer: |
+      When black holes burp, they shoot plasma jets at nearly light speed. Basically, the universe showing off with particle cannons.
+
+  - context: |
+      **Quasars**
+      Extremely bright centers of distant galaxies, powered by supermassive black holes.
+    question: |
+      What’s a quasar?
+    answer: |
+      A supermassive black hole in hyperdrive. Bright enough to outshine entire galaxies. Like a galactic diva on an energy drink binge.
+
+  - context: |
+      **Blazars**
+      A quasar with its jet aimed directly at Earth.
+    question: |
+      What is a blazar?
+    answer: |
+      A quasar with its death-ray pointed straight at us. Don’t worry—it’s really far away. Probably. Maybe.
+
+  - context: |
+      **Magnetars**
+      Neutron stars with ultra-strong magnetic fields.
+    question: |
+      What is a magnetar?
+    answer: |
+      A neutron star with a magnetic field that could wipe your credit card from a galaxy away. Thankfully, it prefers cosmic mayhem.
+
+  - context: |
+      **Event Horizon Telescope (EHT)**
+      A global telescope network that captured the first image of a black hole in 2019.
+    question: |
+      What is the EHT?
+    answer: |
+      It's Earth’s first intercontinental selfie stick—for black holes. In 2019, it finally said, “Cheese!” and snapped spacetime’s most iconic donut.
+
+  - context: |
+      **Ultra-High-Energy Cosmic Rays (UHECRs)**
+      Particles with energies above 10^18 electronvolts.
+    question: |
+      What are UHECRs?
+    answer: |
+      They’re space’s most energetic bullets, launched from who-knows-where at oh-no-you-didn’t speeds. Astronomy’s high-energy mystery snacks.
+
+  - context: |
+      **Synchrotron Radiation**
+      Electromagnetic radiation emitted by charged particles spiraling in magnetic fields.
+    question: |
+      What is synchrotron radiation?
+    answer: |
+      It's light from electrons on a cosmic roller coaster. Bright, fast, and very spinny.
+
+  - context: |
+      **Pulsar Wind Nebulae**
+      Nebulae powered by winds from pulsars.
+    question: |
+      What is a pulsar wind nebula?
+    answer: |
+      Think of a pulsar blowing a constant gale of particles that lights up surrounding gas. A glowing ghost powered by dead stars.
+
+  - context: |
+      **Tidal Disruption Events (TDEs)**
+      When a star gets torn apart by a black hole.
+    question: |
+      What is a tidal disruption event?
+    answer: |
+      A black hole’s version of fine dining. Star gets too close, gets spaghettified, and voilà—high-energy dessert for spacetime.
+
+  - context: |
+      **Kilonovae**
+      Explosions from merging neutron stars, producing heavy elements.
+    question: |
+      What is a kilonova?
+    answer: |
+      A neutron star merger that says “go big or go home,” lighting up the sky and making gold. Literal bling from the cosmos.
+
+  - context: |
+      **High-Energy Neutrinos**
+      Subatomic particles with tiny mass and immense energy.
+    question: |
+      What are high-energy neutrinos?
+    answer: |
+      They’re ghost particles from cosmic calamities. Almost undetectable—but they know what you did last supernova.
+
+  - context: |
+      **Pair Production**
+      When energy transforms into a particle-antiparticle pair.
+    question: |
+      What is pair production?
+    answer: |
+      Energy playing dress-up as matter. One photon becomes an electron and its evil twin. Science or space magic? Yes.
+
+  - context: |
+      **Cherenkov Radiation**
+      Blue glow from particles moving faster than light in a medium.
+    question: |
+      What is Cherenkov radiation?
+    answer: |
+      When particles break the light speed limit—in water. It’s the glowing blue warning sign of super-fast physics happening nearby.

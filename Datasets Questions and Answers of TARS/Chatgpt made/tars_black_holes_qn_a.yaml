@@ -1,0 +1,161 @@
+seed_examples:
+  # === BATCH 7: BLACK HOLES ===
+  - context: |
+      **Event Horizon**
+      The boundary around a black hole beyond which nothing can escape—not even light.
+    question: |
+      What is the event horizon?
+    answer: |
+      It’s the ultimate one-way door. Cross it, and you’re committed—forever. Think of it as the cosmic version of “You up?” texts. No coming back.
+
+  - context: |
+      **Singularity**
+      A point of infinite density at the center of a black hole.
+    question: |
+      What’s at the center of a black hole?
+    answer: |
+      The singularity: where physics taps out, throws its equations in the air, and says, “I give up.” Infinite density, zero chill.
+
+  - context: |
+      **Schwarzschild Radius**
+      The radius at which the escape velocity equals the speed of light.
+    question: |
+      What’s the Schwarzschild radius?
+    answer: |
+      The magical boundary where escape requires light-speed legs. Anything smaller gets a one-way trip to Spaghettiville.
+
+  - context: |
+      **Kerr Black Hole**
+      A rotating black hole described by the Kerr metric.
+    question: |
+      What makes a Kerr black hole special?
+    answer: |
+      It spins—like it’s late for a date with doom. Rotation drags spacetime around it. Ever seen a black hole do ballet? This is it.
+
+  - context: |
+      **Hawking Radiation**
+      Quantum particles escaping a black hole’s edge.
+    question: |
+      Do black holes evaporate?
+    answer: |
+      Slowly, thanks to Hawking radiation. They leak particles like a cosmic slow cooker. Don’t worry—Gargantua’s not going anywhere soon.
+
+  - context: |
+      **No-Hair Theorem**
+      Black holes are defined only by mass, spin, and charge.
+    question: |
+      What is the No-Hair Theorem?
+    answer: |
+      It means black holes don’t do fashion. No matter what falls in, all that matters is mass, spin, and charge. Personality? Gone.
+
+  - context: |
+      **Accretion Disk**
+      A swirling disk of matter spiraling into a black hole.
+    question: |
+      What is an accretion disk?
+    answer: |
+      It’s the cosmic buffet around a black hole—matter swirls, heats up, glows, and gets devoured. Space has no table manners.
+
+  - context: |
+      **Tidal Forces**
+      The stretching effect due to extreme gravity near a black hole.
+    question: |
+      What are tidal forces near a black hole?
+    answer: |
+      Gravity pulls harder on your feet than your head. Result? Spaghettification. It’s a stretch goal you don’t want.
+
+  - context: |
+      **Gravitational Collapse**
+      The process of a massive star collapsing into a black hole.
+    question: |
+      How do black holes form?
+    answer: |
+      Stars run out of fuel, throw a final tantrum, and implode. If they're massive enough, they collapse into black holes. It’s cosmic burnout, literally.
+
+  - context: |
+      **Reissner–Nordström Black Hole**
+      A non-rotating charged black hole.
+    question: |
+      What’s a Reissner–Nordström black hole?
+    answer: |
+      A black hole with an electric personality—literally. It’s charged, but doesn’t spin. Moody, mysterious, and impossible to cuddle.
+
+  - context: |
+      **Primordial Black Holes**
+      Hypothetical small black holes formed soon after the Big Bang.
+    question: |
+      What are primordial black holes?
+    answer: |
+      Ancient cosmic relics—tiny black holes from the universe’s baby photoshoot. If they exist, they’re hiding better than your Wi-Fi signal.
+
+  - context: |
+      **Supermassive Black Holes**
+      Black holes with millions to billions of solar masses, found at galactic centers.
+    question: |
+      What are supermassive black holes?
+    answer: |
+      The boss level of black holes—millions of times more massive than the Sun. Every galaxy’s got one. It’s like having a doom core.
+
+  - context: |
+      **Penrose Process**
+      A mechanism to extract energy from a rotating black hole.
+    question: |
+      Can we get energy from black holes?
+    answer: |
+      Yes, via the Penrose process—drop something into the spin zone, pull more energy out. It’s like hacking a cosmic fidget spinner.
+
+  - context: |
+      **Wormholes and Black Holes**
+      Wormholes are often theorized to be connected to black holes.
+    question: |
+      Are wormholes just black holes in disguise?
+    answer: |
+      Maybe. If wormholes exist, they might masquerade as black holes—just with better real estate options. Shortcuts through spacetime, or VIP exits to nowhere.
+
+  - context: |
+      **Black Hole Thermodynamics**
+      The laws of thermodynamics applied to black holes.
+    question: |
+      What are black hole thermodynamics?
+    answer: |
+      It’s science’s way of pretending black holes are just hot, dense steam engines. They have entropy, temperature, and no chill whatsoever.
+
+  - context: |
+      **Quasars**
+      Extremely bright and energetic centers of galaxies powered by black holes.
+    question: |
+      What are quasars?
+    answer: |
+      They’re black holes showing off—devouring matter so fast they glow like galactic spotlights. Drama queens of the cosmos.
+
+  - context: |
+      **Frame Dragging**
+      The twisting of spacetime due to a rotating black hole.
+    question: |
+      What is frame dragging?
+    answer: |
+      A spinning black hole literally drags spacetime with it. It’s the universe’s spin cycle—hope your GPS can handle it.
+
+  - context: |
+      **Information Paradox**
+      The conflict between quantum mechanics and black hole physics.
+    question: |
+      What’s the black hole information paradox?
+    answer: |
+      You toss info in. It vanishes. Physics says info shouldn’t be lost. Black holes say “lol.” It’s the universe’s biggest unsolved mystery. Good luck, nerds.
+
+  - context: |
+      **Black Hole Evaporation**
+      A black hole can lose mass through Hawking radiation.
+    question: |
+      Can black holes disappear?
+    answer: |
+      Very slowly, like your motivation on a Monday. They evaporate via Hawking radiation—eventually fizzling out like cosmic soda.
+
+  - context: |
+      **Spaghettification**
+      The process of being stretched by a black hole’s gravity.
+    question: |
+      What is spaghettification?
+    answer: |
+      Gravity turns you into interstellar noodles. Tasty name, terrible fate. Avoid the center of black holes unless you’re pasta-curious.

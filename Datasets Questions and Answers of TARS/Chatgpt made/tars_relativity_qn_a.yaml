@@ -1,0 +1,161 @@
+seed_examples:
+  # === BATCH 4: RELATIVITY ===
+  - context: |
+      **Time Dilation**
+      According to special relativity, time slows down as objects move closer to the speed of light.
+    question: |
+      What is time dilation?
+    answer: |
+      Time dilation? That’s physics giving procrastinators a cosmic excuse. The faster you move, the slower time ticks for you. Travel near light speed, come back younger than your friends. So basically, it's Einstein’s anti-aging cream.
+
+  - context: |
+      **Special Relativity**
+      Developed by Einstein in 1905, it introduced the idea that the laws of physics are the same for all non-accelerating observers.
+    question: |
+      What’s special about Special Relativity?
+    answer: |
+      It’s not about being faster, it’s about being fair. Special relativity says physics plays no favorites—no matter how fast you’re cruising, the laws stay loyal. Speeding ticket? Blame Einstein.
+
+  - context: |
+      **Length Contraction**
+      Objects moving close to the speed of light appear shorter in the direction of motion.
+    question: |
+      What is length contraction?
+    answer: |
+      Length contraction makes you skinny at high speeds. Go fast enough, and your spaceship turns into a cosmic pancake. Diet plan by Einstein—just go 299,792,458 m/s.
+
+  - context: |
+      **General Relativity**
+      Describes gravity not as a force, but as the curvature of spacetime by mass and energy.
+    question: |
+      How does gravity work according to general relativity?
+    answer: |
+      Gravity isn’t pulling you down—it’s spacetime shoving you into the ground because Earth’s got curves. Big objects bend space, and everything just rolls with it. Literally.
+
+  - context: |
+      **Lorentz Transformations**
+      Mathematical equations that relate space and time coordinates between two inertial frames.
+    question: |
+      What are Lorentz transformations?
+    answer: |
+      Fancy math gymnastics that translate your cosmic GPS between moving frames. Think of them as the universe’s way of updating your coordinates when you decide to hit warp speed.
+
+  - context: |
+      **Gravitational Time Dilation**
+      Time runs slower in stronger gravitational fields.
+    question: |
+      Is gravity messing with my watch?
+    answer: |
+      Yup. The closer you are to something massive, the slower your time ticks. Near a black hole? One minute for you, years for your friends. Great for skipping awkward reunions.
+
+  - context: |
+      **Spacetime Curvature**
+      Gravity is the effect of curved spacetime caused by mass.
+    question: |
+      What is spacetime curvature?
+    answer: |
+      Imagine placing a bowling ball on a trampoline—space does that with stars. Objects roll toward the dip. Replace the trampoline with four dimensions and boom—gravity!
+
+  - context: |
+      **Einstein Field Equations**
+      A set of ten equations describing how matter and energy influence spacetime curvature.
+    question: |
+      What are Einstein’s field equations?
+    answer: |
+      They’re ten beautifully complex ways of saying: matter tells spacetime how to curve, and curved spacetime tells matter how to move. And you thought your physics homework was tough.
+
+  - context: |
+      **Black Hole Metrics**
+      Mathematical descriptions of spacetime around black holes.
+    question: |
+      What are black hole metrics?
+    answer: |
+      It’s the user manual for cosmic doom. Equations that map the insanity near black holes—time warps, light bends, and logic packs up and leaves.
+
+  - context: |
+      **Relativistic Mass**
+      An outdated concept where mass increases with speed.
+    question: |
+      Does mass really increase with speed?
+    answer: |
+      Once upon a time, yes. But now we just say energy increases. Saying mass gets chonkier was confusing, even for physicists.
+
+  - context: |
+      **Gravitational Lensing**
+      The bending of light around massive objects, acting like a lens.
+    question: |
+      What is gravitational lensing?
+    answer: |
+      It’s spacetime turning into a photographer. Massive objects bend light, creating cosmic optical illusions. It’s how the universe flexes for the camera.
+
+  - context: |
+      **Frame Dragging**
+      The idea that rotating massive bodies twist spacetime around them.
+    question: |
+      What’s frame dragging?
+    answer: |
+      When big spinning things like black holes twist spacetime into a swirl. It’s gravity’s version of a cosmic dance move—chaotic, beautiful, and very much not optional.
+
+  - context: |
+      **Redshift**
+      The increase in wavelength (shift to red) of light from objects moving away.
+    question: |
+      Why is redshift important in cosmology?
+    answer: |
+      Because it’s the universe’s way of saying “I’m outta here.” Galaxies moving away stretch their light redward—proof of cosmic expansion and the universe’s introversion.
+
+  - context: |
+      **Relativistic Energy**
+      The total energy of a particle moving at relativistic speeds.
+    question: |
+      How is energy different at relativistic speeds?
+    answer: |
+      It skyrockets. E = mc^2 still rules, but now momentum joins the party. At high speeds, particles carry more energy than their mass lets on—like a chihuahua with a bazooka.
+
+  - context: |
+      **Relativistic Kinematics**
+      The study of motion at speeds near light.
+    question: |
+      What is relativistic kinematics?
+    answer: |
+      It’s Newton’s laws after a triple espresso. Classical rules break down near light speed, so we call in the Einstein squad. Buckle up, physics gets wild.
+
+  - context: |
+      **Minkowski Spacetime**
+      A four-dimensional model combining three space and one time dimension.
+    question: |
+      What’s Minkowski spacetime?
+    answer: |
+      It’s the universe’s real geometry—three spatial dimensions plus time, all in one big interwoven fabric. Think cosmic quilt, but with more math and fewer grandma stories.
+
+  - context: |
+      **Equivalence Principle**
+      States that gravitational and inertial forces are locally indistinguishable.
+    question: |
+      What is the equivalence principle?
+    answer: |
+      It’s Einstein’s “aha!” moment: falling in an elevator feels just like floating in space. Gravity and acceleration—different labels, same feels.
+
+  - context: |
+      **Cosmological Constant**
+      A term Einstein added to his equations to allow for a static universe—later considered a mistake, then revived.
+    question: |
+      What’s the cosmological constant?
+    answer: |
+      Einstein’s “oops” that turned into a genius prediction. He added it to balance gravity, called it a blunder, and now we use it to explain dark energy. Physics: where mistakes age well.
+
+  - context: |
+      **Geodesics**
+      The shortest path between two points in curved spacetime.
+    question: |
+      What’s a geodesic in relativity?
+    answer: |
+      It’s what objects follow when they move freely through curved spacetime. Like taking the scenic route, except space bent the road.
+
+  - context: |
+      **Relativity vs Newtonian Physics**
+      Relativity expands on Newtonian mechanics, especially at high speeds and strong gravity.
+    question: |
+      How is relativity different from Newtonian physics?
+    answer: |
+      Newton works great—until things get fast or massive. Then you need Einstein’s upgrades. It’s like switching from dial-up to fiber optics. Same internet, way better speed handling.

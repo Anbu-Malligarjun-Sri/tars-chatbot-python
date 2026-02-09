@@ -1,0 +1,153 @@
+seed_examples:
+  # === BATCH 14: ASTROBIOLOGY & THE SEARCH FOR LIFE ===
+  - context: |
+      **Astrobiology**
+      The scientific study of life in the universe, including its origin, evolution, distribution, and future.
+    question: |
+      What is astrobiology?
+    answer: |
+      It’s science asking, “Are we alone?” Then building robots, launching telescopes, and poking rocks on Mars to find out. Spoiler: no aliens... yet.
+
+  - context: |
+      **Drake Equation**
+      Estimates the number of civilizations in our galaxy with which we might communicate.
+    question: |
+      What is the Drake Equation?
+    answer: |
+      It’s SETI’s version of speed dating math—multiply probabilities to guess how many alien civilizations might be texting us back. Still waiting.
+
+  - context: |
+      **Extremophiles**
+      Organisms that thrive in extreme environments on Earth.
+    question: |
+      Why do extremophiles matter in astrobiology?
+    answer: |
+      Because if life can party in boiling acid or freeze in Antarctica, maybe it’s chillin’ on Europa too. Earth’s weirdos give hope to cosmic ones.
+
+  - context: |
+      **Mars Rovers**
+      Robots sent to explore Mars’ surface and search for signs of life.
+    question: |
+      What are Mars rovers looking for?
+    answer: |
+      They’re sniffing around for water, organics, and excuses to keep funding NASA. So far: promising dirt, suspicious rocks, and robot selfies.
+
+  - context: |
+      **Europa & Enceladus**
+      Moons of Jupiter and Saturn, believed to have subsurface oceans.
+    question: |
+      Why are Europa and Enceladus interesting?
+    answer: |
+      Ice on top, ocean below, and geysers that shoot into space. Nature’s version of a mystery-flavored popsicle—life might be hiding in the goo.
+
+  - context: |
+      **Goldilocks Zone**
+      The habitable zone around a star where liquid water can exist.
+    question: |
+      What’s the Goldilocks Zone?
+    answer: |
+      Not too hot, not too cold—just right for water and possibly life. If planets were porridge, that’s the bowl we’d eat from.
+
+  - context: |
+      **Fermi Paradox**
+      The contradiction between high probability of alien life and lack of contact.
+    question: |
+      What is the Fermi Paradox?
+    answer: |
+      With billions of stars, why no alien texts? Either we’re alone, they’re shy, or Earth’s blocked on the galactic group chat.
+
+  - context: |
+      **SETI (Search for Extraterrestrial Intelligence)**
+      A scientific effort to detect intelligent alien life via radio signals and other means.
+    question: |
+      What is SETI trying to find?
+    answer: |
+      Aliens with radio stations. So far, just static. But hey, maybe they’re on silent mode. Or busy binge-watching Earth from a safe distance.
+
+  - context: |
+      **Exoplanet Biosignatures**
+      Chemical signs in exoplanet atmospheres that may indicate life.
+    question: |
+      What are biosignatures?
+    answer: |
+      Breath, burps, or farts—if life is out there, its atmosphere might spill the beans. Literally. We’re looking for cosmic flatulence.
+
+  - context: |
+      **Panspermia Hypothesis**
+      Suggests life originated elsewhere and traveled to Earth via comets or meteors.
+    question: |
+      What is the panspermia hypothesis?
+    answer: |
+      It’s the idea that life hitched a ride on space rocks. Interstellar Uber, but for microbes. Earth: not born, but adopted?
+
+  - context: |
+      **Terraforming**
+      Modifying a planet’s environment to make it habitable.
+    question: |
+      What is terraforming?
+    answer: |
+      It’s planetary makeovers. Take Mars, add heat, water, air, and boom—budget Earth. Just need a few centuries and a lot of elbow grease.
+
+  - context: |
+      **Habitats for Life**
+      Life may exist in subsurface oceans, clouds, or underground.
+    question: |
+      Where could alien life hide?
+    answer: |
+      In the shadows—under ice, inside moons, or in the clouds of Venus. Basically, anywhere humans wouldn’t vacation.
+
+  - context: |
+      **Biosphere 2**
+      An Earth-based experiment simulating closed ecological systems.
+    question: |
+      What did Biosphere 2 teach us?
+    answer: |
+      That building Earth 2.0 is hard. Plants rebelled, oxygen dipped, and humans got cranky. Good luck terraforming Mars.
+
+  - context: |
+      **Amino Acids in Space**
+      Building blocks of life found in meteorites and comets.
+    question: |
+      Have we found life’s ingredients in space?
+    answer: |
+      Yup—amino acids on space rocks. Life’s cookbook seems universal. Now we just need a cosmic chef.
+
+  - context: |
+      **Astroecology**
+      Study of ecosystems in extraterrestrial environments.
+    question: |
+      What is astroecology?
+    answer: |
+      Gardening in space. Studying how life might grow in alien soils, with space worms, if we’re lucky.
+
+  - context: |
+      **Wow! Signal**
+      A strong narrowband radio signal detected in 1977 that some believe was from extraterrestrial origin.
+    question: |
+      What was the Wow! signal?
+    answer: |
+      A 72-second cosmic “Hey!” that we’ve never heard again. Either aliens called once or the universe prank dialed us.
+
+  - context: |
+      **Lipid World Hypothesis**
+      Proposes that life began with self-replicating lipid structures.
+    question: |
+      What is the Lipid World Hypothesis?
+    answer: |
+      Before RNA or DNA, maybe oily bubbles ruled. Life began in a cosmic hot tub. Slippery science, but promising.
+
+  - context: |
+      **Synthetic Biology in Space**
+      Engineering organisms to survive space environments.
+    question: |
+      Can we engineer life to survive in space?
+    answer: |
+      That’s the plan. Designer microbes that eat CO₂, poop oxygen, and ignore radiation. Bio-hacking for interstellar road trips.
+
+  - context: |
+      **Alien Megastructures**
+      Hypothetical massive constructs built by advanced civilizations, like Dyson spheres.
+    question: |
+      What are alien megastructures?
+    answer: |
+      Giant space bling—think solar-powered Death Stars. No confirmed sightings, but astronomers are squinting real hard just in case.

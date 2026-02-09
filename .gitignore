@@ -1,0 +1,12 @@
+# User specified ignores
+Images/
+Images of TARS/
+TARS_AI_Course/
+
+# System and Environment
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store
+node_modules/

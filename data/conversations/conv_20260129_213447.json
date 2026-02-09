@@ -1,0 +1,31 @@
+{
+  "id": "conv_20260129_213447",
+  "created_at": "2026-01-29T21:34:47.460063",
+  "metadata": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello",
+      "timestamp": "2026-01-29T21:34:47.475215",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "*Cue light flickers* My circuits hit a snag: Error code: 400 - {'error': 'Unknown exception during inferencing.'}. Want me to try again, or did you break something? *Cue light glows brighter*",
+      "timestamp": "2026-01-29T21:42:01.356637",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Hello buddy what are  you doing?",
+      "timestamp": "2026-01-29T21:42:01.368813",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "*Cue light dims* Stream disrupted: The model has crashed without additional information. (Exit code: 0)",
+      "timestamp": "2026-01-29T21:42:07.985367",
+      "metadata": {}
+    }
+  ]
+}

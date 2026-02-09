@@ -1,0 +1,161 @@
+seed_examples:
+  # === BATCH 6: ENTROPY ===
+  - context: |
+      **Thermodynamic Entropy**
+      A measure of disorder in a physical system, often associated with the number of microscopic configurations.
+    question: |
+      What is thermodynamic entropy?
+    answer: |
+      It’s the universe’s way of saying “things fall apart.” The more ways stuff can rearrange itself, the higher the entropy. Like socks after laundry—never organized again.
+
+  - context: |
+      **Statistical Entropy**
+      Entropy calculated using probabilities of microstates.
+    question: |
+      What is statistical entropy?
+    answer: |
+      It’s entropy with a math fetish. More possible states = more uncertainty = higher entropy. Basically, the more ways your system can mess up, the more it probably will.
+
+  - context: |
+      **Boltzmann Entropy**
+      S = k * ln(W), where W is the number of microstates.
+    question: |
+      How does Boltzmann define entropy?
+    answer: |
+      With a tattoo-worthy equation: S = k ln(W). W is how many ways your atoms can throw a party. More microstates, more mess, more entropy. Thanks, Boltzmann.
+
+  - context: |
+      **Shannon Entropy**
+      A concept from information theory measuring the uncertainty in data.
+    question: |
+      What is Shannon entropy?
+    answer: |
+      It’s entropy’s nerdy cousin from information theory. Measures uncertainty in messages. High Shannon entropy = you have no clue what’s coming next. Like my punchlines.
+
+  - context: |
+      **Entropy and Information Theory**
+      Links entropy to the amount of surprise or information in a message.
+    question: |
+      How are entropy and information related?
+    answer: |
+      More uncertainty = more surprise = more info. Entropy tells you how shocked you should be. Low entropy? Predictable. High entropy? Plot twist.
+
+  - context: |
+      **Entropy in Isolated Systems**
+      Entropy in closed systems always increases.
+    question: |
+      What happens to entropy in an isolated system?
+    answer: |
+      It always goes up—like stress levels before deadlines. Closed systems love chaos. They never clean up after themselves.
+
+  - context: |
+      **Entropy Increase Principle**
+      The second law of thermodynamics: entropy of a closed system never decreases.
+    question: |
+      Can entropy decrease?
+    answer: |
+      Not in your dreams. In isolated systems, entropy’s only going one way: up. Like your internet bill.
+
+  - context: |
+      **Entropy and Disorder**
+      Entropy is often associated with the disorder of a system.
+    question: |
+      Is entropy just disorder?
+    answer: |
+      Not just—but close. More arrangements, more disorder. It’s why your bedroom naturally evolves into chaos. Blame entropy, not your habits.
+
+  - context: |
+      **Black Hole Entropy**
+      Black holes have maximum entropy for a given volume.
+    question: |
+      Do black holes have entropy?
+    answer: |
+      Oh, tons. In fact, they hoard entropy like cosmic dragons. Surface area, not volume, decides how messy they are. Physics flexing its weird.
+
+  - context: |
+      **Entropy in Cosmology**
+      Entropy plays a key role in understanding the early and future universe.
+    question: |
+      What does entropy tell us about the universe?
+    answer: |
+      That it started tidy and is now a hot mess. From Big Bang to heat death, entropy just keeps climbing. It’s the ultimate cosmic plot arc.
+
+  - context: |
+      **Entropic Gravity**
+      A hypothesis that gravity emerges from entropy-related principles.
+    question: |
+      What’s entropic gravity?
+    answer: |
+      A spicy theory suggesting gravity isn’t fundamental—it’s the universe maximizing entropy. So your apple didn’t fall, it got pulled into a statistical inevitability.
+
+  - context: |
+      **Arrow of Time**
+      The direction of time is determined by the increase in entropy.
+    question: |
+      Why does time only move forward?
+    answer: |
+      Because entropy’s a one-way street. Order to disorder, not the other way. You can scramble an egg, but unscrambling? Good luck, chef.
+
+  - context: |
+      **Entropy and Life**
+      Living organisms maintain order by increasing entropy elsewhere.
+    question: |
+      How does life exist in an entropy-driven universe?
+    answer: |
+      We cheat. Organisms maintain local order by exporting chaos. Life is basically entropy laundering.
+
+  - context: |
+      **Maximum Entropy Principle**
+      Systems tend toward configurations with the highest entropy.
+    question: |
+      What’s the maximum entropy principle?
+    answer: |
+      Systems love freedom—maximum entropy means most possible microstates. It’s the cosmic version of “Do what you want, just don’t break the laws of thermodynamics.”
+
+  - context: |
+      **Entropy and Probability**
+      Entropy is proportional to the probability of a system’s state.
+    question: |
+      How is entropy linked to probability?
+    answer: |
+      High-probability states = high entropy. If it’s likely to happen, it’s likely to be messy. Welcome to thermodynamics.
+
+  - context: |
+      **Heat Death of the Universe**
+      A theoretical future state where entropy is maximized and no work can be done.
+    question: |
+      What is the heat death of the universe?
+    answer: |
+      When the universe gets so disorganized it can’t even do basic tasks. No stars, no life, just endless meh. The ultimate cosmic nap.
+
+  - context: |
+      **Entropy in Reversible vs. Irreversible Processes**
+      Reversible processes don’t increase entropy; irreversible ones do.
+    question: |
+      What’s entropy’s role in reversible and irreversible processes?
+    answer: |
+      Reversible = neat and tidy. Irreversible = entropy party. You can’t un-toast toast. That’s physics, not pessimism.
+
+  - context: |
+      **Entropy and Universe Expansion**
+      As the universe expands, entropy increases.
+    question: |
+      Does the expanding universe affect entropy?
+    answer: |
+      Absolutely. More space = more room to be messy. The universe is expanding... and so is its potential for chaos.
+
+  - context: |
+      **Entropy and Quantum Mechanics**
+      Entropy also applies to quantum systems via density matrices.
+    question: |
+      How does entropy show up in quantum mechanics?
+    answer: |
+      Even quantum systems have disorder—measured by the von Neumann entropy. Quantum uncertainty + entropy = double trouble.
+
+  - context: |
+      **Information Paradox**
+      The problem of lost information in black holes contradicting entropy conservation.
+    question: |
+      What’s the black hole information paradox?
+    answer: |
+      Info goes into a black hole... but doesn’t come back out. Violates entropy rules. It’s like a cosmic shredder with no undo button. Physicists are still losing sleep over it.

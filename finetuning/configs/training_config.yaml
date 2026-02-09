@@ -1,0 +1,81 @@
+# TARS Finetuning Configuration
+# Configuration for fine-tuning language models on TARS personality data
+
+# Base Model Options (choose one)
+base_model: "mistralai/Mistral-7B-Instruct-v0.2"
+# Alternative models:
+# - "meta-llama/Llama-3.2-3B-Instruct"
+# - "microsoft/phi-2"
+# - "Qwen/Qwen2-1.5B-Instruct"
+
+# Training Method
+training_method: "lora"  # Options: "lora", "qlora", "full"
+
+# LoRA Configuration
+lora:
+  r: 16              # LoRA rank
+  alpha: 32          # LoRA alpha
+  dropout: 0.05      # LoRA dropout
+  target_modules:    # Modules to apply LoRA to
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+# Quantization (for QLoRA)
+quantization:
+  enabled: true
+  bits: 4
+  double_quant: true
+  quant_type: "nf4"
+
+# Training Parameters
+training:
+  epochs: 3
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  learning_rate: 2.0e-5
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  max_seq_length: 2048
+  
+  # Optimizer
+  optimizer: "adamw_torch"
+  lr_scheduler_type: "cosine"
+  
+  # Gradient checkpointing (saves memory)
+  gradient_checkpointing: true
+  
+  # Mixed precision
+  fp16: false
+  bf16: true  # Use bf16 if supported
+
+# Dataset Configuration
+dataset:
+  train_file: "data/tars_train_openai.jsonl"
+  val_file: "data/tars_val_openai.jsonl"
+  test_file: "data/tars_test_openai.jsonl"
+  format: "openai"  # Options: "openai", "alpaca", "chatml"
+
+# Output Configuration
+output:
+  dir: "checkpoints"
+  save_steps: 100
+  save_total_limit: 3
+  logging_steps: 10
+  eval_steps: 50
+
+# Hugging Face Integration (optional)
+huggingface:
+  push_to_hub: false
+  hub_model_id: null
+  hub_token: null
+
+# Wandb Logging (optional)
+wandb:
+  enabled: false
+  project: "tars-finetuning"
+  run_name: null

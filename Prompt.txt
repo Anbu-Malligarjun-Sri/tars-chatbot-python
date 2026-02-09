@@ -1,0 +1,120 @@
+
+================================================================================
+# DETAILED PROJECT ANALYSIS: TARS CHATBOT v2.0
+================================================================================
+
+## 1. Executive Summary
+TARS Chatbot v2.0 is a highly sophisticated, personality-driven AI assistant inspired by the tactical robot from the movie *Interstellar*. Unlike generic chatbots, TARS incorporates a specialized "Personality Engine" that allows real-time adjustment of Humor, Honesty, and Discretion parameters, directly influencing the tone and content of its responses. The system is built on a modular "Hybrid Intelligence" architecture, combining Retrieval-Augmented Generation (RAG) for factual accuracy with large language models (LLMs) for conversational fluidity. It supports multiple LLM backends (OpenAI, Gemini, Ollama, LM Studio) and features a full-duplex voice interface.
+
+## 2. Technical Architecture
+
+### 2.1. Backend Core (Python/FastAPI)
+The backbone of the system is a high-performance Python application structured around modular "Engines":
+*   **The Brain (LLM Manager):** A strategy-pattern based manager that abstracts the underlying LLM provider. It handles context management, token limits, and seamlessly switches between providers (e.g., fallback to OpenAI if a local Ollama model fails).
+*   **The Memory (RAG System):** powered by **ChromaDB** and **LangChain**. It indexes a dedicated knowledge base (YAML datasets) containing over 500+ specialized QA pairs on Quantum Mechanics, Astrophysics, and Interstellar lore. This allows TARS to answer domain-specific questions with high precision, citing its internal "Data Archives."
+*   **The Personality Engine:** A unique middleware layer that injects system prompts and modifies response patterns based on user-defined sliders (0-100%) for:
+    *   **Humor:** Determines joke frequency and sarcasm levels.
+    *   **Honesty:** Controls directness (e.g., 100% honesty might result in "brutal" truths).
+*   **Communication Layer:**
+    *   **REST API:** FastAPI endpoints for stateless interactions (`/api/chat`, `/api/settings`).
+    *   **WebSockets:** For real-time, low-latency streaming of token responses to the frontend.
+
+### 2.2. Voice & Audio Subsystem
+*   **Input (STT):** Uses `SpeechRecognition` with PyAudio to capture microphone input, utilizing local Whisper models or Google Speech API for transcription.
+*   **Output (TTS):** Integrated `pyttsx3` locally, with potential for ElevenLabs integration for high-definition voice synthesis.
+*   **Audio Pipeline:** Features a specialized "Voice Loop" that listens for wake words or continuous conversation flow, mimicking the "Cue Light" indicator from the film to show active listening states.
+
+### 2.3. Frontend Interface (Current Implementation)
+*   **Tech Stack:** built with **Vite**, **React**, and **TypeScript**.
+*   **Features:**
+    *   **Three.js Integration:** Uses `@react-three/fiber` to render a 3D scene (likely the TARS monolith).
+    *   **State Management:** Custom hooks (`useChat`, `useVoice`) for managing WebSocket connections and audio streams.
+    *   **Styling:** Modern CSS variables and glassmorphism effects.
+
+## 3. Data Flow & Logic
+1.  **User Input:** Text or Voice command is received.
+2.  **Intent Classification:** The system determines if the query requires retrieval (RAG) or simple conversation.
+3.  **Context Assembly:**
+    *   If RAG: Vector search in ChromaDB retrieves top-k relevant chunks.
+    *   History: Recent conversation turns are appended.
+    *   Personality: Current Humor/Honesty settings shape the system prompt (e.g., "You are TARS. Humor set to 90%. Be extremely sarcastic.").
+4.  **Generation:** The prompt is sent to the active LLM provider.
+5.  **Streaming Response:** Tokens are streamed back via WebSocket to the UI to minimize latency perception.
+6.  **Post-Processing:** If voice is on, the complete sentence is sent to the TTS engine for synthesis.
+
+## 4. Key Differentiators
+*   **Personality Controllability:** Not just a prompt wrapper; it's a dynamic state machine that alters behavior on the fly.
+*   **Privacy-First:** Fully functional with local LLMs (Ollama/LM Studio).
+*   **Immersive Experience:** Designed to feel like a piece of hardware from the *Endurance* spacecraft, not just a web page.
+
+================================================================================
+# PROMPT FOR CREATING A NEW "INTERSTELLAR" FRONTEND
+================================================================================
+
+**Context:**
+You are an expert Frontend Architect and UI/UX Designer specializing in "Sci-Fi User Interfaces" (FUI) and high-performance React applications.
+
+**Task:**
+Create a complete, production-ready frontend code structure for the TARS Chatbot project. The design must be fundamentally different from standard "chatgpt-clones"—it must feel like a specialized terminal interface from the *Interstellar* movie universe.
+
+**Technical Specifications:**
+*   **Framework:** React 19 + Vite (TypeScript).
+*   **Styling:** TailwindCSS (v4 if stable, otherwise v3.4) + `framer-motion` for complex animations.
+*   **Icons:** Lucide-React (clean, crisp lines).
+*   **State:** Zustand (for global settings like Humor/Honesty levels).
+*   **3D Elements:** `@react-three/fiber` (optional but recommended for a background "Monolith" visualization).
+
+**Design Language (The "Nolan" Aesthethic):**
+*   **Palette:** Deep Space Black (`#0a0a0a`), Star White (`#f0f0f0`), HUD Amber (`#ff9d00` for alerts), and TARS Silver/Gray (`#2a2a2a`).
+*   **Typography:** Monospaced fonts for data (e.g., 'JetBrains Mono' or 'Space Mono') mixed with clean Sans-Serif (Inter) for readability.
+*   **Textures:** Subtle grain/noise overlays, glassmorphism with high blur, clean hairline borders (1px) instead of heavy shadows.
+
+**Required Components & features:**
+
+1.  **The "Monolith" Sidebar (Left or Right):**
+    *   A rigid, blocky control panel representing TARS's physical form.
+    *   **Sliders:** Crucial feature. Create vertical, mechanical-looking sliders for **Humor**, **Honesty**, and **Discretion**. When moved, they should snap or vibrate visually.
+    *   **Status Indicators:** "Cue Light" (Blue/Green LED) that pulses when TARS is thinking or speaking.
+
+2.  **The "Hud" Chat Interface (Center):**
+    *   Messages should not look like SMS bubbles. They should look like terminal logs or mission reports.
+    *   **User Input:** A sleek command line at the bottom `> [Enter command...]`.
+    *   **Streaming Text:** Implement a "typewriter" effect that feels mechanical, perhaps with a faint clicking sound effect on character render.
+
+3.  **Data Visualization (The "RAG" View):**
+    *   When TARS retrieves data (RAG), show a small "searching" animation (e.g., searching star maps or data archives) before the answer appears.
+    *   Display "Confidence" metrics or "Source" citations in a small monospace font below the answer.
+
+4.  **Voice Interaction Mode:**
+    *   A prominent visualizer (waveform or circular spectrum) that reacts to microphone input amplitude.
+    *   A "Push-to-Talk" button that feels heavy and tactile.
+
+**Output Requirements:**
+Please generate the following files to replace the existing `frontend/src`:
+1.  `tailwind.config.js` (with the custom color palette and typography).
+2.  `src/store/tarsStore.ts` (Zustand store for settings).
+3.  `src/components/ui/Slider.tsx` (Custom mechanical slider component).
+4.  `src/components/layout/AppLayout.tsx` (The main grid layout).
+5.  `src/components/chat/TerminalMessage.tsx` (The styled message component).
+6.  `src/App.tsx` (The entry point connecting everything).
+
+**Prompt to the Agent:**
+"Design a 'TARS Terminal' interface. I want the user to feel like they are Cooper interfacing with the machine on the Endurance. Make it cold, precise, but beautiful. Use high-contrast monochrome with amber accents. Ensure the 'Humor' and 'Honesty' settings are always visible as physical controls."
+
+================================================================================
+# FRONTEND INTEGRATION DETAILS (Q&A)
+================================================================================
+
+**1. Backend API Endpoints:**
+*   **Chat endpoint:** `POST /api/chat`
+*   **Settings endpoint:** `GET /api/settings` and `PUT /api/settings`
+*   **WebSocket URL:** `/api/ws/chat` (e.g. `ws://localhost:8000/api/ws/chat`)
+
+**2. 3D Monolith:**
+*   **Yes**, include the Three.js 3D TARS monolith visualization. This is a core part of the "Interstellar" immersive experience.
+
+**3. Voice UI:**
+*   **Yes**, include voice interaction UI components (waveform visualizer, push-to-talk button) to support the full command experience.
+
+**4. Implementation Strategy:**
+*   Use the confirmed endpoints above. The backend is ready to accept these requests.
