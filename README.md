@@ -71,7 +71,7 @@ The system utilizes a modular architecture:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/TARS-chatbot-v2.git
+    git clone https://github.com/Anbu-Malligarjun-Sri/tars-chatbot-python.git
     cd "TARS chatbot version 1"
     ```
 
